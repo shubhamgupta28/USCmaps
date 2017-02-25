@@ -9,7 +9,7 @@ public class Issues {
     /**
      * The map in the Welcome tab is coming behind the tabs layout
      *
-     *
+     * How to get clicked data in recycler view
      *
      */
 }
