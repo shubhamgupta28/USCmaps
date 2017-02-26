@@ -17,10 +17,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="USCmaps.iws" />
@@ -54,11 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuildingListAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            <state relative-caret-position="195">
+              <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,8 @@
       <file leaf-file-name="Tab1Buildings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+            <state relative-caret-position="1537">
+              <caret line="131" column="42" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -77,9 +77,45 @@
       <file leaf-file-name="Tab2Map.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="152">
+              <caret line="162" column="30" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#Tab2Map#0" expanded="false" />
+                <element signature="e#2594#2637#0" expanded="false" />
+                <element signature="method#onCreate#0;class#Tab2Map#0" expanded="false" />
+                <element signature="class#3478:4171" expanded="false" />
+                <element signature="method#onReceive#0;class#3478:4171" expanded="false" />
+                <element signature="e#4264#4297#0" expanded="false" />
+                <element signature="method#call#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#setUpMap#0;class#Tab2Map#0" expanded="false" />
+                <element signature="class#4717:4904" expanded="false" />
+                <element signature="method#onMapReady#0;class#4717:4904" expanded="false" />
+                <element signature="method#markNewLocation#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#fetchLocation#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onCreateView#0;class#Tab2Map#0" expanded="false" />
+                <element signature="e#9369#9406#0" expanded="false" />
+                <element signature="method#onResume#0;class#Tab2Map#0" expanded="false" />
+                <element signature="e#10891#10936#0" expanded="false" />
+                <element signature="e#11154#11202#0" expanded="false" />
+                <element signature="method#onPause#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onLowMemory#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onConnected#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onConnectionSuspended#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onConnectionFailed#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onLocationChanged#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onRequestPermissionsResult#0;class#Tab2Map#0" expanded="false" />
+                <element signature="e#13992#14030#0" expanded="false" />
+                <element signature="e#14181#14219#0" expanded="false" />
+                <element signature="docComment;method#onInfoWindowClick#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#onInfoWindowClick#0;class#Tab2Map#0" expanded="false" />
+                <element signature="docComment;method#getInfoWindow#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#getInfoWindow#0;class#Tab2Map#0" expanded="false" />
+                <element signature="docComment;method#getInfoContents#0;class#Tab2Map#0" expanded="false" />
+                <element signature="method#getInfoContents#0;class#Tab2Map#0" expanded="false" />
+                <element signature="e#15689#15739#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2308,8 +2344,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/DummyActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BroadcastReceiverSearch.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2406,6 +2444,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="uscmaps" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="USCmaps" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uscmaps" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2569,7 +2629,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Auto" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -2627,6 +2687,14 @@
       <option name="presentableId" value="Default" />
       <updated>1488063236936</updated>
     </task>
+    <task id="LOCAL-00001" summary="Building List OnClickListener working, corrected the recyclerView select problem to show the selected row in a Toast">
+      <created>1488086096511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1488086096511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2636,7 +2704,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2669,6 +2737,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Building List OnClickListener working, corrected the recyclerView select problem to show the selected row in a Toast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Building List OnClickListener working, corrected the recyclerView select problem to show the selected row in a Toast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2742,26 +2814,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#BuildingListAdapter#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#onCreateViewHolder#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#onBindViewHolder#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#getItemCount#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="class#BuildingViewHolder#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#BuildingViewHolder#0;class#BuildingViewHolder#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="method#onClick#0;class#BuildingViewHolder#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="docComment;class#ListItemClickListener#0;class#BuildingListAdapter#0" expanded="false" />
+            <element signature="class#ListItemClickListener#0;class#BuildingListAdapter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-25/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="419" column="16" selection-start-line="419" selection-start-column="16" selection-end-line="419" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="128" column="11" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="11" />
+        <state relative-caret-position="1537">
+          <caret line="131" column="42" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+        <state relative-caret-position="152">
+          <caret line="162" column="30" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#Tab2Map#0" expanded="false" />
+            <element signature="e#2594#2637#0" expanded="false" />
+            <element signature="method#onCreate#0;class#Tab2Map#0" expanded="false" />
+            <element signature="class#3478:4171" expanded="false" />
+            <element signature="method#onReceive#0;class#3478:4171" expanded="false" />
+            <element signature="e#4264#4297#0" expanded="false" />
+            <element signature="method#call#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#setUpMap#0;class#Tab2Map#0" expanded="false" />
+            <element signature="class#4717:4904" expanded="false" />
+            <element signature="method#onMapReady#0;class#4717:4904" expanded="false" />
+            <element signature="method#markNewLocation#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#fetchLocation#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#Tab2Map#0" expanded="false" />
+            <element signature="e#9369#9406#0" expanded="false" />
+            <element signature="method#onResume#0;class#Tab2Map#0" expanded="false" />
+            <element signature="e#10891#10936#0" expanded="false" />
+            <element signature="e#11154#11202#0" expanded="false" />
+            <element signature="method#onPause#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onLowMemory#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onConnected#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onConnectionSuspended#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onConnectionFailed#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onLocationChanged#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onRequestPermissionsResult#0;class#Tab2Map#0" expanded="false" />
+            <element signature="e#13992#14030#0" expanded="false" />
+            <element signature="e#14181#14219#0" expanded="false" />
+            <element signature="docComment;method#onInfoWindowClick#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#onInfoWindowClick#0;class#Tab2Map#0" expanded="false" />
+            <element signature="docComment;method#getInfoWindow#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#getInfoWindow#0;class#Tab2Map#0" expanded="false" />
+            <element signature="docComment;method#getInfoContents#0;class#Tab2Map#0" expanded="false" />
+            <element signature="method#getInfoContents#0;class#Tab2Map#0" expanded="false" />
+            <element signature="e#15689#15739#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
           <folding />
         </state>
       </provider>

@@ -3,7 +3,6 @@ package usc.com.uscmaps.example1.shubham.uscmaps;
 import android.content.Context;
 import android.database.Cursor;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,7 +25,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
         this.mCursor = mCursor;
         this.mContext = context;
         this.mlistItemClickListener = listener;
-
     }
 
     @Override
@@ -42,8 +40,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
             return;
         }
         String name = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
-        Log.e(TAG, "hi: "+mCursor.getString(0));
-
         holder.bTextView.setText(name);
     }
 
@@ -51,7 +47,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
     public int getItemCount() {
         return mCursor.getCount();
     }
-
 
     class BuildingViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView bTextView ;
@@ -77,8 +72,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
      * Creating a click listener for each item in Recycler View
      */
     public interface ListItemClickListener{
-//        void recyclerViewItemClicked(View v, int clickedPosition);
-
         void onClick(String weatherForDay);
     }
 }

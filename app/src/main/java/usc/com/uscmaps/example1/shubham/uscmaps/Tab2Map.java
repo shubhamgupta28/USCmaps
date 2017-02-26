@@ -69,6 +69,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     String strtext;
     BroadcastReceiver br;
     String destinationFromSearch;
+    String buildingNameFromSearch;
     boolean onReceiveCalled = false;
     public static final String TAG = Tab2Map.class.getSimpleName();
 
@@ -105,10 +106,11 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             public void onReceive(Context context, Intent intent) {
                 Log.e(TAG, "Inside onRecieve Broadcast checkk");
                 String destination = intent.getStringExtra("message");
+                String buildingName = intent.getStringExtra("buildingName");
                 Toast.makeText(getActivity(), destination, Toast.LENGTH_SHORT).show();
 //                searchBuilding( destination);
                 destinationFromSearch = destination;
-//                Log.e(TAG, destinationFromSearch);
+                buildingNameFromSearch = buildingName;
                 onReceiveCalled = true;
                 call(destinationFromSearch, onReceiveCalled);
             }
@@ -158,7 +160,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 mGoogleMap.clear();
                 Marker marker = mGoogleMap.addMarker(new MarkerOptions()
                         .position(latLng)
-                        .title(locationAddress)
+                        .title(buildingNameFromSearch)
                         .snippet("Click to start Naviagtion")
                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
                 );
@@ -210,7 +212,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(16));
 
-//        mGoogleMap.setMyLocationEnabled(true);
     }
 
     public void fetchLocation(){

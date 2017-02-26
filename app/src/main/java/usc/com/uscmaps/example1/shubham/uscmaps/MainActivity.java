@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
     private SQLiteDatabase mDb;
     FragmentTransaction transaction;
+    public static final String TAG = MainActivity.class.getSimpleName();
+
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -84,11 +86,18 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
+        Log.e(TAG, "Inside onNewIntent ");
         handleIntent(intent);
     }
 
+
+
     private void handleIntent(Intent intent) {
+        Log.e(TAG, "Inside handleNewIntent "+intent.getAction());
+//        Log.e(TAG, )
+
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
+            Log.e("check app crash", ""+intent);
             String query = intent.getStringExtra(SearchManager.QUERY);
             query= query.toUpperCase();
 //            Log.e("MainActivity", "Query Searched: "+query);
@@ -104,18 +113,50 @@ public class MainActivity extends AppCompatActivity {
 
                 Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
 //            Log.e("handleIntent", ""+ searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
+                broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
+                        searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
+            }
+        }
+        else if (intent.getExtras() != null) {
+            String buildingIntentCheck = intent.getExtras().getString("IdentifyClass");
+//            Log.e("check app crash", buildingIntentCheck);
+//            Log.e("check app crash", ""+intent);
 
-                broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
 
+            if (buildingIntentCheck != null && buildingIntentCheck.equals("Tab1Building")) {
+                Log.e("SHU", "dfghjkjcxvbnm");
+                String query = intent.getStringExtra("RecyclerViewValue");
+                Log.e("ftghj", query);
+                query= query.toUpperCase();
+//            Log.e("MainActivity", "Query Searched: "+query);
+                Cursor searchedResultCursor = getBuildingNameMatch(query);
 
+                searchedResultCursor.moveToFirst();
+                Log.e("bfhdkjfn", ""+searchedResultCursor.getCount());
+
+                if(searchedResultCursor.getCount() == 0){
+                    Toast.makeText(getApplicationContext()  , "The Building Symbol you entered doesn't exist. Try Again!",
+                            Toast.LENGTH_LONG).show();
+                }
+                else{
+
+//                    Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
+//            Log.e("handleIntent", ""+ searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
+                    broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
+                            searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
+                }
             }
 
+
         }
+
     }
 
-    public void broadcastIntent(String destination){
+    public void broadcastIntent(String destination, String buildingName){
+        Log.e("cfhgvjhbkn", destination);
         Intent intent2= new Intent("CustomIntent");
         intent2.putExtra("message", destination);
+        intent2.putExtra("buildingName", buildingName);
         intent2.setAction("com.broadcast.searchQuery");
         sendBroadcast(intent2);
     }
@@ -130,7 +171,18 @@ public class MainActivity extends AppCompatActivity {
                 null,
                 null,
                 null);
+    }
 
+    private Cursor getBuildingNameMatch(String buildingName) {
+//        Log.e("getWordMatches", symbol);
+        return mDb.query(
+                WaitListContract.WaitListEntry.TABLE_NAME,
+                new String[] {"buldingName", "address"},
+                "buldingName = ? " ,
+                new String[] { buildingName },
+                null,
+                null,
+                null);
     }
 
     @Override

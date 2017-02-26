@@ -1,6 +1,7 @@
 package usc.com.uscmaps.example1.shubham.uscmaps;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -127,5 +128,10 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
     public void onClick(String weatherForDay) {
         Context context = getContext();
         Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(getContext(), MainActivity.class);
+        intent.putExtra("RecyclerViewValue", weatherForDay);
+        intent.putExtra("IdentifyClass", "Tab1Building");
+        intent.setClass(getContext(), MainActivity.class);
+        startActivity(intent);
     }
 }
