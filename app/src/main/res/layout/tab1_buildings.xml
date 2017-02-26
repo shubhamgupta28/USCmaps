@@ -9,18 +9,10 @@
     tools:context="usc.com.uscmaps.example1.shubham.uscmaps.MainActivity$PlaceholderFragment">
 
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tab1"
-        android:layout_alignParentRight="true"/>
-
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recylerViewBuilding"
-        android:paddingTop="110dp">
+        android:id="@+id/recylerViewBuilding">
 
     </android.support.v7.widget.RecyclerView>
 </RelativeLayout>
