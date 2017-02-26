@@ -18,6 +18,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -35,6 +36,8 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.List;
 import java.util.Locale;
 
@@ -263,8 +266,8 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         Log.d(TAG, "onResume");
 
         super.onResume();
-
-
+        // To hide the keyboard when the user comes back from Google Maps Activity
+        getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
         if (ContextCompat.checkSelfPermission(this.getContext(),
                 android.Manifest.permission.ACCESS_FINE_LOCATION)
@@ -304,6 +307,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             mMapView.onResume();
             setUpMap();
         }
+
     }
 
     @Override
@@ -412,7 +416,14 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     public void onInfoWindowClick(Marker marker) {
         Toast.makeText(getContext(), "Info window clicked, Opening Navigation", Toast.LENGTH_SHORT).show();
 
-        Uri gmmIntentUri = Uri.parse("google.navigation:q=Starbucks&mode=w");
+        String queryString= null;
+        try {
+            queryString = URLEncoder.encode(destinationFromSearch, "utf-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        Log.e(TAG, "queryString: "+queryString);
+        Uri gmmIntentUri = Uri.parse("google.navigation:q="+queryString+"&mode=w");
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);

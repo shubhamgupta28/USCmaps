@@ -5,16 +5,15 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:id="@+id/buildingNameTextView"
-        android:fontFamily="monospace"
         />
     <!--This View serves as a visual divider between list items-->
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="#dadada"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
         android:layout_below="@+id/buildingNameTextView"/>
 </RelativeLayout>

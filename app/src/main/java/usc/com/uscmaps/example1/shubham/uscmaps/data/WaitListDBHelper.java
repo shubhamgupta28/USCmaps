@@ -40,33 +40,4 @@ public class WaitListDBHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS "+ WaitListContract.WaitListEntry.TABLE_NAME);
         onCreate(db);
     }
-
-//    public static Cursor getWordMatches(SQLiteDatabase db, String symbol) {
-////        String select = "Select COLUMN_BUILDING_NAME, COLUMN_ADDRESS from"+ WaitListContract.WaitListEntry.TABLE_NAME
-////                +
-////                " Where title_raw  " + "'%Smith%'" +
-////                ")";
-//        Log.e("getWordMatches", symbol);
-//        Cursor cursor = db.query(
-//                WaitListContract.WaitListEntry.TABLE_NAME,
-//                new String[] {"COLUMN_BUILDING_NAME", "COLUMN_ADDRESS"},
-//                "COLUMN_CODE = ? " ,
-//                new String[] { "SGM" },
-//                null,
-//                null,
-//                null);
-//
-//        Log.e("getWordMatches" , ""+cursor.getCount());
-//        return cursor;
-//
-////        (SQliteDatabase) db.query(
-////                "mytable" /* table */,
-////                new String[] { "name" } /* columns */,
-////                "id = ?" /* where or selection */,
-////                new String[] { "john" } /* selectionArgs i.e. value to replace ? */,
-////                null /* groupBy */,
-////                null /* having */,
-////                null /* orderBy */
-////        );
-//    }
 }
