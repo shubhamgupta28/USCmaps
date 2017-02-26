@@ -126,7 +126,6 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
     @Override
     public void onClick(String weatherForDay) {
         Context context = getContext();
-        Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT)
-                .show();
+        Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT).show();
     }
 }

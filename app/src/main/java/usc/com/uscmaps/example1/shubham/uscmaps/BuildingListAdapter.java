@@ -20,8 +20,7 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
     private Cursor mCursor;
     private Context mContext;
     private static ListItemClickListener mlistItemClickListener;
-    private String[] mWeatherData;
-
+    public static final String TAG = BuildingListAdapter.class.getSimpleName();
 
     public BuildingListAdapter(Cursor mCursor, Context context, ListItemClickListener listener) {
         this.mCursor = mCursor;
@@ -29,12 +28,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
         this.mlistItemClickListener = listener;
 
     }
-//
-//    public BuildingListAdapter(Context context, ListItemClickListener listener) {
-//        this.mContext = context;
-//        this.mlistItemClickListener = listener;
-//
-//    }
 
     @Override
     public BuildingViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -48,16 +41,14 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
         if(!mCursor.moveToPosition(position)){
             return;
         }
-
         String name = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
-//        mWeatherData[0] = name;
-        holder.bTextView.setText(name);
+        Log.e(TAG, "hi: "+mCursor.getString(0));
 
+        holder.bTextView.setText(name);
     }
 
     @Override
     public int getItemCount() {
-//        Log.e("getItemCount", ""+mCursor.getCount());
         return mCursor.getCount();
     }
 
@@ -71,14 +62,14 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
             itemView.setOnClickListener(this);
         }
 
+
         @Override
         public void onClick(View v) {
             int adapterPosition = getAdapterPosition();
-            Log.e("Builddinglistadaprter", ""+adapterPosition);
-            String weatherForDay = mWeatherData[adapterPosition];
-            mlistItemClickListener.onClick(weatherForDay);
-
-//            mlistItemClickListener.recyclerViewItemClicked(v, this.getLayoutPosition());
+//            Log.e(TAG, ""+adapterPosition);
+            mCursor.moveToPosition(adapterPosition);
+            String selectedString = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
+            mlistItemClickListener.onClick(selectedString);
         }
     }
 

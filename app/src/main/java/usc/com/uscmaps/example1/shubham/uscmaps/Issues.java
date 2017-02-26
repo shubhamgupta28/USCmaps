@@ -11,5 +11,6 @@ public class Issues {
      *
      * How to get clicked data in recycler view
      *
+     * Need of a Broadcast receiver class when all it is being used is in Manifest
      */
 }
