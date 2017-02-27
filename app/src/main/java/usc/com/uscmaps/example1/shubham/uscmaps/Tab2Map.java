@@ -59,8 +59,7 @@ import java.util.Locale;
 
 
 public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener, LocationListener, GoogleMap.OnInfoWindowClickListener,
-        GoogleMap.InfoWindowAdapter {
+        GoogleApiClient.OnConnectionFailedListener, LocationListener, GoogleMap.OnInfoWindowClickListener{
 
     private Address searchAddress;
     private GoogleApiClient mGoogleApiClient;
@@ -101,7 +100,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 .setFastestInterval(1 * 1000);
 
 
-//        Log.e(TAG, "Inside onCreate for Broadcast check");
 
         setHasOptionsMenu(true);
         br = new BroadcastReceiver() {
@@ -111,7 +109,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 String destination = intent.getStringExtra("message");
                 String buildingName = intent.getStringExtra("buildingName");
                 Toast.makeText(getActivity(), destination, Toast.LENGTH_SHORT).show();
-//                searchBuilding( destination);
                 destinationFromSearch = destination;
                 buildingNameFromSearch = buildingName;
                 onReceiveCalled = true;
@@ -119,11 +116,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             }
         };
         getContext().registerReceiver(br, new IntentFilter("com.broadcast.searchQuery"));
-
-//        Log.d(TAG, "onCreate");
-//        if(onReceiveCalled){
-//            call();
-//        }
     }
 
     public void call(String destinationFromSearch, boolean onReceiveCalled) {
@@ -172,7 +164,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
                 mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(16));
                 mGoogleMap.setOnInfoWindowClickListener(this);
-                mGoogleMap.setInfoWindowAdapter(this);
+//                mGoogleMap.setInfoWindowAdapter(this);
                 if (ActivityCompat.checkSelfPermission(getContext(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                    return;
                 }
@@ -194,12 +186,9 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 result = "Address: " + locationAddress +
                         "\n Unable to get Latitude and Longitude for this address location.";
                 Log.i(TAG, "Address: " + result);
-//                Toast.makeText(getContext(), "Found no nearby subleases", Toast.LENGTH_LONG).show();
                 mGoogleMap.clear();
-//                fetchLocation();
             }
         }
-
     }
 
 
@@ -208,13 +197,13 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
 
-        MarkerOptions options = new MarkerOptions()
+        Marker marker = mGoogleMap.addMarker(new MarkerOptions()
                 .position(latLng)
-                .title("I am here!");
-        mGoogleMap.addMarker(options);
+                .title("You are here!")
+        );
         mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(16));
-
+        marker.showInfoWindow();
     }
 
     public void fetchLocation(){
@@ -250,15 +239,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         mMapView.onCreate(savedInstanceState);
         mMapView.onResume();
 
-//        Log.d(TAG, "onCreateView");
-//        String myValue = this.getArguments().getString("AddressData");
-//        if (getArguments() != null && getArguments().getString("AddressData") != null) {
-//            strtext = getArguments().getString("AddressData");
-//
-//            Log.e("In onCreateView ", "In getArgs");
-//            Log.e("In onCreateView ", myValue);
-//            Log.e("In onCreateView ", strtext);
-//        }
         return rootView;
     }
     @Override
@@ -296,8 +276,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         }
         // FOR older versions, permission is already granted
         else {
-
-//            Log.e(TAG, "In else of OnResume");
             //DO WHATEVER YOU WANT WITH GOOGLEMAP
             if (ActivityCompat.checkSelfPermission(this.getContext(), android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 Log.e(TAG, "Permission problem... returning");
@@ -319,7 +297,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
             mGoogleApiClient.disconnect();
         }
-//        mMapView.onPause();
     }
 
     @Override
@@ -377,9 +354,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     @Override
     public void onLocationChanged(Location location) {
         Log.d(TAG, "onLocationChanged");
-
         markNewLocation(location);
-
     }
 
     @Override
@@ -429,57 +404,4 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         startActivity(mapIntent);
     }
 
-    /**
-     * Allows you to provide a view that will be used for the entire info window,
-     * The API will first call getInfoWindow(Marker) and if null is returned, it will then call
-     * getInfoContents(Marker). If this also returns null, then the default info window will be used.
-     * @param marker
-     * @return
-     */
-    @Override
-    public View getInfoWindow(Marker marker) {
-        return null;
-    }
-
-    /**
-     * Allows you to just customize the contents of the window but still keep the default info window frame and background.
-     * @param marker
-     * @return
-     */
-    @Override
-    public View getInfoContents(Marker marker) {
-//        return prepareInfoView(marker);
-        return null;
-    }
-
-//    private View prepareInfoView(Marker marker){
-//        //prepare InfoView programmatically
-//        LinearLayout infoView = new LinearLayout(Tab2Map.this);
-//        LinearLayout.LayoutParams infoViewParams = new LinearLayout.LayoutParams(
-//                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-//        infoView.setOrientation(LinearLayout.HORIZONTAL);
-//        infoView.setLayoutParams(infoViewParams);
-//
-//        ImageView infoImageView = new ImageView(MapsActivity.this);
-//        //Drawable drawable = getResources().getDrawable(R.mipmap.ic_launcher);
-//        Drawable drawable = getResources().getDrawable(android.R.drawable.ic_dialog_map);
-//        infoImageView.setImageDrawable(drawable);
-//        infoView.addView(infoImageView);
-//
-//        LinearLayout subInfoView = new LinearLayout(MapsActivity.this);
-//        LinearLayout.LayoutParams subInfoViewParams = new LinearLayout.LayoutParams(
-//                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-//        subInfoView.setOrientation(LinearLayout.VERTICAL);
-//        subInfoView.setLayoutParams(subInfoViewParams);
-//
-//        TextView subInfoLat = new TextView(MapsActivity.this);
-//        subInfoLat.setText("Lat: " + marker.getPosition().latitude);
-//        TextView subInfoLnt = new TextView(MapsActivity.this);
-//        subInfoLnt.setText("Lnt: " + marker.getPosition().longitude);
-//        subInfoView.addView(subInfoLat);
-//        subInfoView.addView(subInfoLnt);
-//        infoView.addView(subInfoView);
-//
-//        return infoView;
-//    }
 }

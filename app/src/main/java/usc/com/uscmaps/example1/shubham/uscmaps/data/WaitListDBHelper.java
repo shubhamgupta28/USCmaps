@@ -12,10 +12,6 @@ public class WaitListDBHelper extends SQLiteOpenHelper {
     private final static String DATABASE_NAME1 = "building.db";
     private final static int DATABASE_VERSION = 6;
 
-//    public WaitListDBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-//        super(context, DATABASE_NAME1, null, DATABASE_VERSION);
-//
-//    }
     public WaitListDBHelper(Context context) {
         super(context, DATABASE_NAME1, null, DATABASE_VERSION);
 

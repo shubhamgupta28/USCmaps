@@ -4,14 +4,12 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.DatabaseUtils;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
@@ -32,9 +30,7 @@ import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListDBHelper;
 public class MainActivity extends AppCompatActivity {
 
     private SQLiteDatabase mDb;
-    FragmentTransaction transaction;
     public static final String TAG = MainActivity.class.getSimpleName();
-
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -69,8 +65,6 @@ public class MainActivity extends AppCompatActivity {
         mViewPager.setAdapter(mSectionsPagerAdapter);
         mViewPager.setCurrentItem(1);
 
-//        Log.wtf("mah tag", "view pager current child :" + mViewPager.getCurrentItem());
-
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
@@ -79,7 +73,6 @@ public class MainActivity extends AppCompatActivity {
         // Keep a reference to the mDb until paused or killed. Get a writable database
         // because you will be adding restaurant customers
         mDb = dbHelper.getWritableDatabase();
-
 
         handleIntent(getIntent());
     }
@@ -94,13 +87,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void handleIntent(Intent intent) {
         Log.e(TAG, "Inside handleNewIntent "+intent.getAction());
-//        Log.e(TAG, )
 
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             Log.e("check app crash", ""+intent);
             String query = intent.getStringExtra(SearchManager.QUERY);
             query= query.toUpperCase();
-//            Log.e("MainActivity", "Query Searched: "+query);
             Cursor searchedResultCursor = getWordMatches(query);
 
             searchedResultCursor.moveToFirst();
@@ -111,8 +102,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else{
 
-                Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
-//            Log.e("handleIntent", ""+ searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
+//                Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
                 broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
                         searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
             }
@@ -124,25 +114,16 @@ public class MainActivity extends AppCompatActivity {
 
 
             if (buildingIntentCheck != null && buildingIntentCheck.equals("Tab1Building")) {
-                Log.e("SHU", "dfghjkjcxvbnm");
                 String query = intent.getStringExtra("RecyclerViewValue");
-                Log.e("ftghj", query);
                 query= query.toUpperCase();
-//            Log.e("MainActivity", "Query Searched: "+query);
                 Cursor searchedResultCursor = getBuildingNameMatch(query);
-
                 searchedResultCursor.moveToFirst();
-                Log.e("bfhdkjfn", ""+searchedResultCursor.getCount());
-
                 if(searchedResultCursor.getCount() == 0){
                     Toast.makeText(getApplicationContext()  , "The Building Symbol you entered doesn't exist. Try Again!",
                             Toast.LENGTH_LONG).show();
                 }
                 else{
-
-//                    Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
-//            Log.e("handleIntent", ""+ searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
-                    broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
+                  broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
                             searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
                 }
             }
@@ -153,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void broadcastIntent(String destination, String buildingName){
-        Log.e("cfhgvjhbkn", destination);
         Intent intent2= new Intent("CustomIntent");
         intent2.putExtra("message", destination);
         intent2.putExtra("buildingName", buildingName);
@@ -162,7 +142,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Cursor getWordMatches(String symbol) {
-//        Log.e("getWordMatches", symbol);
             return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME,
                 new String[] {"buldingName", "address"},
@@ -174,7 +153,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private Cursor getBuildingNameMatch(String buildingName) {
-//        Log.e("getWordMatches", symbol);
         return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME,
                 new String[] {"buldingName", "address"},

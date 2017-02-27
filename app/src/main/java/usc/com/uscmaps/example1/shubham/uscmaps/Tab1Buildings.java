@@ -73,20 +73,9 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
 
         // Get all guest info from the database and save in a cursor
         Cursor cursor = getAllGuests();
-
-//        Log.e("Tab1Building",  "col Count: "+cursor.getColumnCount());
-
-        // COMPLETED (10) Pass the entire cursor to the adapter rather than just the count
-        // Create an adapter for that cursor to display the data
-
-//        mAdapter = new BuildingListAdapter(cursor,this.getContext());
         mAdapter = new BuildingListAdapter(cursor,this.getContext(), this);
 
-//        mAdapter = new BuildingListAdapter(getContext(), this);
-
-        // Link the adapter to the RecyclerView
         waitlistRecyclerView.setAdapter(mAdapter);
-//        textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
         return rootView;
     }
 
@@ -113,16 +102,6 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
 
         );
     }
-
-//    @Override
-//    public void recyclerViewItemClicked(View v, int clickedPosition) {
-//        Log.e("in recyclerViewItemClic", ""+clickedPosition);
-//        Log.e("in recyclerViewItemClic", ""+v.toString());
-//        RecyclerView.ViewHolder h = (RecyclerView.ViewHolder)v.getTag();
-//
-//
-////        mAdapter = new BuildingListAdapter(getContext(), this);
-//    }
 
     @Override
     public void onClick(String weatherForDay) {

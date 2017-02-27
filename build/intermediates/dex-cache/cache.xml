@@ -12,12 +12,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_f1e7fc3142c239cb8dfe9eb52fc304b9b402d460/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d8e1f76e1dddd30ebc576aa71b5471b2a386bf1d">
+        sha1="a1df6936f0db497730bcb6b02099be70437da69a">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3752ab6a5ae3582c71251e8b283f543995ad1e44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_b68f6acc213d4f5154ad0a483b9a98aacd34433e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,6 +84,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.0_eaa08cf0622bbed06c63da635aebf28fe1696746/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="415336382149f2a79eb80599e340e188f6724d6d">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.0_4c4f47fb85e65f2473cf5cb4e450eb2889a4a714/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -93,6 +129,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.0_f86260302a7ca21143414caf75e53758352c38c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.0_a416d9de41a2be5c2843b8a2c61e0c714d8327da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -111,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="870bc141d42fe04f0146d7b52535323dfed2fc80">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f01359b18a3b79a34f77e91fa6be412b345d95f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -126,6 +189,15 @@
         revision="25.0.2"
         sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.0_34bb8b4eb16b4d1485484b09f3b3d704a8ae6120/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.0_705b939afc2f8c08355cb0d0735ea2ca8e83f542/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,6 +228,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.0_73577d148c80c26b00bdc3a8f925e5e7033273b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -180,6 +261,15 @@
         revision="25.0.2"
         sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.0_9580ee87020e917a4b8cc35726d93a89c27987fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.0_0e2b724b0e3ecfb2289e87fafa31a750e20e2163/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -216,6 +306,15 @@
         revision="25.0.2"
         sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.0_090f1011bd2f7429cf953923e5e16cbdd676d1b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d57767271a9c140da143ec0db9a0673b6d96eccb">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.0_d45caa7220b454c43a6185f906e10590b234407b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -261,474 +360,6 @@
         revision="25.0.2"
         sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_d7ba76ff40f5ec01e669a6388250863130188c0d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.0_cb33cf43a4398bc90a702697056e0f38f46cad96/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.0_65a4a1c8fc42978d45856e9d24e70f3b9efa09a0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.0_410352a8c4fa8be286df373b95864b6ab09b5d8f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_0e8658b34f77592f182d7008fa7b81cd54a8b586/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.0_5405cbb3140ed7bd15ed929066106254be60d7d6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_91d8b72690b55c03acf1d57ef44b69a8a7229b77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_c92817f80be223d5f87d419e33706df0e51f6fa1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.0_cdf63cc8eb0002f5103f91c242b9eec65796e60f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_d2bc9b1db8f30b34b0b5f7cabf08fa37767653c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.0_eb5755819dfd82c96613374e6d6e6fa5fc6f9cca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.0_6aaa324eaecb1005bdc9f3512786e34480ff261d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.0_a7e9f7c06064432c83a567a2af540d7214f8b121/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.0_dc6ccce75497c0ed9577b76f25c2bc370095d2a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.0_7ba828111599779a18c84d315d9505becc4aa63a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_3dae4266b7ef930510c625b7bbae4271515c0caa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.0_92112a94ccfbdc31137603c65afac7b3453d307a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.0_9d3e5130a6602dc44d5e1a16400659acd6813ced/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f914062b5a62ec87f5b39966bb62dfb5f4254b0">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b978991dcaa51277a1502415d20c360477dcbfd4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="eb96a230c7b55d545fbdee45157a5a75b2b26284">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.0_2be3b033bb07331799c3ba130e5cc4aa2df92c92/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="96c6b39d8ba7a7348944d9edab7a7272b48b83bf">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d1082ecbbc6087168e297b73102300ef5d6485c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f4540ad2a6e3741694e9332f0c20607c780fae6c">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.0_db4682d613a9f93cefd7f691c9b0e6fe90d63bc7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.0_fbc13b0024df06e46026a536bf5218d94999bd43/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.0_aaaabc99dc816fe075494f470dbbe2434bd65e61/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.0_fa73489ba927d54e809fa48ca84c0f81a8a37ab5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_846b9387e3536858a65cad8b2ffd522cc6d89946/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.0_d6c3612b59187e9737027daa4be449c3d412a872/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.0_d0868e448e2273c37c0841b91edcb8ee5fefc7df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.0_ec9bb1e995e0cb98615d3434020fbf5dcc9035b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a5da6fc5a6f39aee309ae6ae670e1b942759dc51">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.0_841136b597fd5e1762efa70684971c60ade7c17e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.0_fa360bcd65ed61a875943b634d1e4d461655c699/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.0_61d59ab5fd2ba6cf500b905559de51b4fc606c2d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.0_eada91333689a16076f056b04361ce448976e4a2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_b54c7026c52680e4c6f4022a7959407afefa89d1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_f7b1fb0db2d1ccb9afe5b04093a87f0e23cd9594/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_70dfb941f2aad33e18499f4c079b21eebcbe5864/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.0_6feb38ba216dadd7c57e0c4b83430eb18dd7cc68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_fafa475cad8a50f5f5eb8a2c772dca10f45f3455/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5243af50631020511cf2403789678149b1a319e6">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.0_bddc40f9bf1556529931ce42d74e0d42434caf94/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.0_1b605acc812e8eefe6a792153abd1cb422302cb4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_0add30c8e23a0f841178e4e4d1ec3e5858e537d1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_9fe74fa77ab5b9a942cf1938f4abd65550be116e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_f1e7fc3142c239cb8dfe9eb52fc304b9b402d460/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_b68f6acc213d4f5154ad0a483b9a98aacd34433e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.0_eaa08cf0622bbed06c63da635aebf28fe1696746/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="415336382149f2a79eb80599e340e188f6724d6d">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.0_4c4f47fb85e65f2473cf5cb4e450eb2889a4a714/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.0_f86260302a7ca21143414caf75e53758352c38c9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.0_a416d9de41a2be5c2843b8a2c61e0c714d8327da/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="870bc141d42fe04f0146d7b52535323dfed2fc80">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f01359b18a3b79a34f77e91fa6be412b345d95f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.0_705b939afc2f8c08355cb0d0735ea2ca8e83f542/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.0_73577d148c80c26b00bdc3a8f925e5e7033273b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
-        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.0_0e2b724b0e3ecfb2289e87fafa31a750e20e2163/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d57767271a9c140da143ec0db9a0673b6d96eccb">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.0_d45caa7220b454c43a6185f906e10590b234407b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -786,6 +417,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.0_cb33cf43a4398bc90a702697056e0f38f46cad96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -813,6 +453,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.0_65a4a1c8fc42978d45856e9d24e70f3b9efa09a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.0_410352a8c4fa8be286df373b95864b6ab09b5d8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_0e8658b34f77592f182d7008fa7b81cd54a8b586/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -831,12 +498,66 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.0_5405cbb3140ed7bd15ed929066106254be60d7d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_91d8b72690b55c03acf1d57ef44b69a8a7229b77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_c92817f80be223d5f87d419e33706df0e51f6fa1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="4ab00b7d310cfdfff3a9446554485647153d0792">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.0_98e5e0d458ef8609048843c39ef3b51253d7da2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.0_cdf63cc8eb0002f5103f91c242b9eec65796e60f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_d2bc9b1db8f30b34b0b5f7cabf08fa37767653c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.0_eb5755819dfd82c96613374e6d6e6fa5fc6f9cca/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -858,6 +579,33 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.0_6aaa324eaecb1005bdc9f3512786e34480ff261d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.0_a7e9f7c06064432c83a567a2af540d7214f8b121/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.0_dc6ccce75497c0ed9577b76f25c2bc370095d2a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -867,12 +615,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.0_7ba828111599779a18c84d315d9505becc4aa63a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="97e3259dcdaa9b33014a849f6d3bdbb4ef478383">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.0_d045dc33119be8a8b5898c30063f81303105c497/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_3dae4266b7ef930510c625b7bbae4271515c0caa/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -894,12 +660,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.0_92112a94ccfbdc31137603c65afac7b3453d307a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="5fef4ad8c5b2519596b80a241d56b69dffcd6845">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.0_f982af09d00738656eb92ca93ce1491fb903ba00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.0_9d3e5130a6602dc44d5e1a16400659acd6813ced/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -912,12 +696,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f914062b5a62ec87f5b39966bb62dfb5f4254b0">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b978991dcaa51277a1502415d20c360477dcbfd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.0_c011d79f5ba2ded776a2fa698915322a2ec1aa12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb96a230c7b55d545fbdee45157a5a75b2b26284">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.0_2be3b033bb07331799c3ba130e5cc4aa2df92c92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bcd13e643e119f69adac1291912d82f355e6ca5">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d1082ecbbc6087168e297b73102300ef5d6485c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -948,12 +759,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f4540ad2a6e3741694e9332f0c20607c780fae6c">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.0_db4682d613a9f93cefd7f691c9b0e6fe90d63bc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_fefd548f3aa7d50ef8649030d2a18f249de247e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.0_fbc13b0024df06e46026a536bf5218d94999bd43/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.0_aaaabc99dc816fe075494f470dbbe2434bd65e61/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -993,12 +831,66 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.0_fa73489ba927d54e809fa48ca84c0f81a8a37ab5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_846b9387e3536858a65cad8b2ffd522cc6d89946/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.0_d6c3612b59187e9737027daa4be449c3d412a872/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.0_d0868e448e2273c37c0841b91edcb8ee5fefc7df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_d8405f8dc8f3164ee997c65917576ea75623ad41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.0_ec9bb1e995e0cb98615d3434020fbf5dcc9035b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5da6fc5a6f39aee309ae6ae670e1b942759dc51">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.0_841136b597fd5e1762efa70684971c60ade7c17e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1047,6 +939,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.0_fa360bcd65ed61a875943b634d1e4d461655c699/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.0_61d59ab5fd2ba6cf500b905559de51b4fc606c2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -1092,6 +1002,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.0_eada91333689a16076f056b04361ce448976e4a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -1110,12 +1029,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_b54c7026c52680e4c6f4022a7959407afefa89d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.0_702cdb8e849c77a804c8116a3ca252fb8050d860/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_f7b1fb0db2d1ccb9afe5b04093a87f0e23cd9594/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1155,12 +1092,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_70dfb941f2aad33e18499f4c079b21eebcbe5864/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.0_6feb38ba216dadd7c57e0c4b83430eb18dd7cc68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_fafa475cad8a50f5f5eb8a2c772dca10f45f3455/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="266e4ac186afacc3b220a0cf8382348283b42407">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.0_ad79147524015d02e054d456cc5abf1ee88706d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5243af50631020511cf2403789678149b1a319e6">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.0_bddc40f9bf1556529931ce42d74e0d42434caf94/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -1173,6 +1146,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.0_1b605acc812e8eefe6a792153abd1cb422302cb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -1182,12 +1164,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_0add30c8e23a0f841178e4e4d1ec3e5858e537d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
         <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_847d40e58cad1808cb7faf1635ffe0e504677424/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Shubham/AndroidStudioProjects/Cognitive-Vision-Android-master/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_9fe74fa77ab5b9a942cf1938f4abd65550be116e/classes.dex" />
     </item>
     <item
         is-multidex="true"

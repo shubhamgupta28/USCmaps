@@ -7,9 +7,6 @@ package usc.com.uscmaps.example1.shubham.uscmaps;
 public class Issues {
 
     /**
-     * The map in the Welcome tab is coming behind the tabs layout
-     *
-     * How to get clicked data in recycler view
      *
      * Need of a Broadcast receiver class when all it is being used is in Manifest
      */
