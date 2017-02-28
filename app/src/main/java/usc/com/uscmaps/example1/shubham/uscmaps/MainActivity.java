@@ -83,13 +83,16 @@ public class MainActivity extends AppCompatActivity {
         handleIntent(intent);
     }
 
-
-
+    /**
+     * This function looks for an Intent and fires corresponding code snippets.
+     * It categorizes the intents as that from Search Bar, or Others. The other contains
+     * two different intents coming from Tab1Building which perform two different functions.
+     * @param intent - The intent received
+     */
     private void handleIntent(Intent intent) {
         Log.e(TAG, "Inside handleNewIntent "+intent.getAction());
 
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-            Log.e("check app crash", ""+intent);
             String query = intent.getStringExtra(SearchManager.QUERY);
             query= query.toUpperCase();
             Cursor searchedResultCursor = getWordMatches(query);
@@ -101,16 +104,18 @@ public class MainActivity extends AppCompatActivity {
                         Toast.LENGTH_LONG).show();
             }
             else{
-
 //                Log.e("handleIntent", ""+ DatabaseUtils.dumpCursorToString(searchedResultCursor));
                 broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
                         searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
             }
         }
         else if (intent.getExtras() != null) {
+            Log.e(TAG, "Inside else "+intent.getExtras().toString());
+
             String buildingIntentCheck = intent.getExtras().getString("IdentifyClass");
-//            Log.e("check app crash", buildingIntentCheck);
-//            Log.e("check app crash", ""+intent);
+            String changeTab = intent.getExtras().getString("changeTab");
+            Log.e(TAG, "Inside else "+ changeTab);
+            Log.e(TAG, "Inside else "+ buildingIntentCheck);
 
 
             if (buildingIntentCheck != null && buildingIntentCheck.equals("Tab1Building")) {
@@ -127,12 +132,21 @@ public class MainActivity extends AppCompatActivity {
                             searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
                 }
             }
-
-
+            /**
+             * To change tab 1 to tab 2, after selecting a item from the recycler view
+             */
+            if(changeTab!=null && changeTab.equals("changeTab")){
+                Log.e("serdtfgyhuijok", "tab change code");
+                mViewPager.setCurrentItem(1);
+            }
         }
-
     }
 
+    /**
+     * #HACK Sends a Broadcast for sending the buildingName and address to the Tab2Buildings fragment
+     * @param destination The Address of the destination
+     * @param buildingName The Building name used for display inside the Marker InfoView
+     */
     public void broadcastIntent(String destination, String buildingName){
         Intent intent2= new Intent("CustomIntent");
         intent2.putExtra("message", destination);
@@ -141,6 +155,10 @@ public class MainActivity extends AppCompatActivity {
         sendBroadcast(intent2);
     }
 
+    /**
+     * Queries the database for the Symbol searched and returns the Building Name and the address
+     * @param symbol The code of the building
+     */
     private Cursor getWordMatches(String symbol) {
             return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME,
@@ -152,6 +170,10 @@ public class MainActivity extends AppCompatActivity {
                 null);
     }
 
+    /**
+     * Queries the database for the Building name searched and returns the Building Name and the address
+     * @param buildingName The code of the building
+     */
     private Cursor getBuildingNameMatch(String buildingName) {
         return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME,
@@ -177,18 +199,22 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * Handle action bar item clicks here. The action bar will
+     * automatically handle clicks on the Home/Up button, so long
+     * as you specify a parent activity in AndroidManifest.xml.
+     * @param item
+     * @return boolean
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -224,9 +250,13 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
+        /**
+         * Show 3 total pages.
+         * @return The number of pages you want to display
+         */
         @Override
         public int getCount() {
-            // Show 3 total pages.
+
             return 3;
         }
 

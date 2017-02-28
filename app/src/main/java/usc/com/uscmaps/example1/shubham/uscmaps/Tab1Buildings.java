@@ -1,6 +1,5 @@
 package usc.com.uscmaps.example1.shubham.uscmaps;
 
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -12,7 +11,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import usc.com.uscmaps.example1.shubham.uscmaps.data.InsertDataUtil;
 import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListContract;
@@ -99,17 +97,22 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
                 null,
                 null,
                 WaitListContract.WaitListEntry.COLUMN_SERIAL
-
         );
     }
 
+    /**
+     * Send Intent with the class information and the listItem from Recycler view, that has been
+     * clicked and selected.
+     * @param weatherForDay
+     */
     @Override
     public void onClick(String weatherForDay) {
-        Context context = getContext();
-        Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT).show();
+//        Context context = getContext();
+//        Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getContext(), MainActivity.class);
         intent.putExtra("RecyclerViewValue", weatherForDay);
         intent.putExtra("IdentifyClass", "Tab1Building");
+        intent.putExtra("changeTab", "changeTab");
         intent.setClass(getContext(), MainActivity.class);
         startActivity(intent);
     }

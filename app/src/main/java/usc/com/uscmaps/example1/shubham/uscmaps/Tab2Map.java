@@ -108,7 +108,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 Log.e(TAG, "Inside onRecieve Broadcast checkk");
                 String destination = intent.getStringExtra("message");
                 String buildingName = intent.getStringExtra("buildingName");
-                Toast.makeText(getActivity(), destination, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), destination, Toast.LENGTH_SHORT).show();
                 destinationFromSearch = destination;
                 buildingNameFromSearch = buildingName;
                 onReceiveCalled = true;
@@ -139,7 +139,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     }
 
     public void searchBuilding(String locationAddress) {
-        Log.e(TAG, "Inside searchBuilding");
+//        Log.e(TAG, "Inside searchBuilding");
         Geocoder geocoder = new Geocoder(getContext(), Locale.getDefault());
         String result = null;
         try {
@@ -193,7 +193,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
 
     private void markNewLocation(Location location) {
-        Log.e(TAG, "Inside handleLocation: ");
+//        Log.e(TAG, "Inside handleLocation: ");
 
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
 
@@ -207,7 +207,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     }
 
     public void fetchLocation(){
-        Log.e(TAG, "Inside FetchLocation");
+//        Log.e(TAG, "Inside FetchLocation");
 
         if (ActivityCompat.checkSelfPermission(this.getContext(), android.Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
@@ -222,7 +222,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
             }
             else {
-                Log.e(TAG, "Location not Null, calling markNewLocation");
+//                Log.e(TAG, "Location not Null, calling markNewLocation");
                 markNewLocation(location);
             }
 
@@ -243,7 +243,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     }
     @Override
     public void onResume() {
-        Log.d(TAG, "onResume");
+//        Log.d(TAG, "onResume");
 
         super.onResume();
         // To hide the keyboard when the user comes back from Google Maps Activity
@@ -290,7 +290,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onPause() {
-        Log.d(TAG, "onPause");
+//        Log.d(TAG, "onPause");
 
         super.onPause();
         if (mGoogleApiClient.isConnected()) {
@@ -301,7 +301,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onDestroy() {
-        Log.d(TAG, "onDestroy");
+//        Log.d(TAG, "onDestroy");
 
         super.onDestroy();
         mGoogleMap.clear();
@@ -313,7 +313,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onLowMemory() {
-        Log.d(TAG, "onLowMemory");
+//        Log.d(TAG, "onLowMemory");
 
         super.onLowMemory();
         mMapView.onLowMemory();
@@ -321,7 +321,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onConnected(Bundle bundle) {
-        Log.e(TAG, "In onConnected");
+//        Log.e(TAG, "In onConnected");
 
         if (onReceiveCalled) {
             searchBuilding(destinationFromSearch);
@@ -333,12 +333,12 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onConnectionSuspended(int i) {
-        Log.d(TAG, "onConnectionSuspended");
+//        Log.d(TAG, "onConnectionSuspended");
     }
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
-        Log.d(TAG, "onConnectionFailed");
+//        Log.d(TAG, "onConnectionFailed");
         if (connectionResult.hasResolution()) {
             try {
                 // Start an Activity that tries to resolve the error
@@ -353,7 +353,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 
     @Override
     public void onLocationChanged(Location location) {
-        Log.d(TAG, "onLocationChanged");
+//        Log.d(TAG, "onLocationChanged");
         markNewLocation(location);
     }
 
@@ -361,7 +361,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
 
-        Log.e(TAG, "In onRequestPermissionsResult");
+//        Log.e(TAG, "In onRequestPermissionsResult");
         switch (requestCode) {
             case PERMISSION_REQUEST_ACCESS_FINE_LOCATION: {
                 // If request is cancelled, the result arrays are empty.
