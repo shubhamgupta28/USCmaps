@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (classIntentCheck != null && classIntentCheck.equals("Tab1Building")) {
                 String query = intent.getStringExtra("RecyclerViewValue");
-                query= query.toUpperCase();
+//                query= query.toUpperCase();
                 Cursor searchedResultCursor = getBuildingNameMatch(query);
                 searchedResultCursor.moveToFirst();
                 if(searchedResultCursor.getCount() == 0){
