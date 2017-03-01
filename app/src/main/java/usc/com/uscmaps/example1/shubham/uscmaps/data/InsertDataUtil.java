@@ -14,11 +14,87 @@ import java.util.List;
  */
 
 public class InsertDataUtil {
-    public static void insertFakeData(SQLiteDatabase db) {
 
+    public static void insertFakeParkingData(SQLiteDatabase db) {
+        ArrayList<String> parkingData = getParkingData();
+        insertFakeParkingData(parkingData, db);
+    }
+
+    public static void insertFakeParkingData(ArrayList<String> crawledData, SQLiteDatabase db){
+        if(db == null){
+            return;
+        }
+//        SQLiteDatabase database = this.getWritableDatabase();
+        ContentValues values = null;
+        List<ContentValues> list = new ArrayList<ContentValues>();
+
+//        Log.e("hbjn", crawledData.get(0)+" : "+crawledData.get(1)+" : "+crawledData.get(2));
+
+        for(int i = 0; i < crawledData.size();i=i+4){
+            int count = 4, j = i;
+            values = new ContentValues();
+
+            while(count > 0){
+//                Log.e("gh", ""+count);
+
+                switch (count){
+                    case 4:
+                        values.put(WaitListContract.WaitListEntry.COLUMN_SYMBOL_PARKING, crawledData.get(j));
+                        break;
+                    case 3:
+                        values.put(WaitListContract.WaitListEntry.COLUMN_NAME_PARKING, crawledData.get(j));
+                        break;
+                    case 2:
+                        values.put(WaitListContract.WaitListEntry.COLUMN_ADDRESS_PARKING, crawledData.get(j));
+                        break;
+                    case 1:
+                        values.put(WaitListContract.WaitListEntry.COLUMN_DESCRIPTION_PARKING, crawledData.get(j));
+                        break;
+                }
+                j++;
+                count--;
+//                Log.e("insertdatautil2", ""+values+" count: "+count);
+            }
+            list.add(values);
+//            Log.e("out", ""+list);
+        }
+
+        //insert all parking data in one transaction
+        try
+        {
+            db.beginTransaction();
+            //clear the table first
+            db.delete (WaitListContract.WaitListEntry.TABLE_NAME_PARKING,null,null);
+            //go through the list and add one by one
+            for(ContentValues c:list){
+//                Log.e("InsertdataUtil", ""+c);
+                db.insert(WaitListContract.WaitListEntry.TABLE_NAME_PARKING, null, c);
+            }
+            db.setTransactionSuccessful();
+        }
+        catch (SQLException e) {
+            Log.e("InsertDataUtil", "Database Insertion unsuccessful");
+        }
+        finally
+        {
+            db.endTransaction();
+        }
+    }
+
+    private static ArrayList<String> getParkingData() {
+        String[] arr = new String[]{"PSA", "Parking Structure A (PSA)", "3667 McClintock Avenue Los Angeles CA 90089", "Enter at the Vermont Avenue Entrance at 36th Place (Entrance 6). Total spaces: 1,713 Total handicap spaces: 29","PSB", "Parking Structure B (PSB)", "11150 West Jefferson Blvd. Los Angeles CA 90089", "Parking for students, faculty and staff with permits only, for guests by reservation, and for Norris Dental Science Center clinic patients. Total spaces: 990 Total handicap spaces: 27","PSC", "Parking Lot C (Credit Union Building)", "3742 S Flower St Los Angeles, CA 90007", "Parking for USC Credit Union staff, by permit only; plus 10 spaces for USC Credit Union customers.","PSD", "Parking Structure D (PSD)", "649 West 34th Street Los Angeles 90089", "Enter at the Jefferson Boulevard Entrance at Royal Street (Entrance 4). Total spaces: 1,345 Total handicap spaces: 26","UPX", "Parking Center (UPX)", "3401 Grand Avenue Los Angeles, CA", "Enter off of 35th Street east of Grand Avenue. Open 24 hours. Pay station on second floor. Hourly rate: $2, eight hours maximum. Total spaces: 2,238 Total handicap spaces: 38","PS2", "Parking Structure Two (PS2)", "3335 South Flower Street Los Angeles CA 90089", "Parking for students, faculty and staff with permits only and guests with reservations; daily parking also available until sold out. Enter off of Flower Street north of Exposition Boulevard. Open 6:00am to 9:45pm every day. Total spaces: 1,193 Total handicap spaces: 29","PSO", "Parking Structure One (PSO)", "3701 Flower Street Los Angeles CA 90089", "Parking for students, faculty and staff with permits only; no daily parking. Enter off of Flower Street south of Exposition Boulevard. Open 24 hours. Total spaces: 1,152 Total handicap spaces: 21","PLSSRI", "Parking Lot SSRI (PLSSRI)", "Parking Lot SSRI Los Angeles, CA 90007", "Pay-by-use lot. Meter parking (4-hour max) Total spaces: 20 Total handicap spaces: 5","PSX", "Parking Structure X (PSX)", "620 West McCarthy Way Los Angeles, CA 90089", "Parking for students, faculty and staff with permits only, and for guests by reservation. Enter at the Figueroa Street Entrance at 35th Street (Entrance 3). Handicap parking is available on the first floor only; there is no elevator in this parking structure. Total spaces: 988 Total handicap spaces: 21","PL1", "Parking Lot 1 (PL1)", "3430 S Vermont Ave Los Angeles, CA 90089", "Pay-by-use lot. Hourly rate: $1 Total spaces: 389 Total handicap spaces: 0"};
+        return new ArrayList<String>(Arrays.asList(arr));
+    }
+
+
+
+
+
+
+
+    public static void insertFakeData(SQLiteDatabase db) {
         ArrayList<String> data = getBuildingData();
         insertFakeData(data, db);
-
     }
 
     public static void insertFakeData(ArrayList<String> crawledData, SQLiteDatabase db){
@@ -84,6 +160,7 @@ public class InsertDataUtil {
 //        db.insert(WaitListContract.WaitListEntry.TABLE_NAME, null, values);
 //        db.close();
     }
+
 
     public static ArrayList<String> getBuildingData(){
 

@@ -13,5 +13,15 @@ public class WaitListContract {
         public static final String COLUMN_CODE = "code";
         public static final String COLUMN_BUILDING_NAME = "buldingName";
         public static final String COLUMN_ADDRESS = "address";
+
+
+        public static final String TABLE_NAME_PARKING = "parking";
+        public static final String COLUMN_SYMBOL_PARKING = "symbol_parking";
+        public static final String COLUMN_NAME_PARKING = "name_parking";
+        public static final String COLUMN_ADDRESS_PARKING = "address_parking";
+        public static final String COLUMN_DESCRIPTION_PARKING = "description_parking";
+
+
+
     }
 }

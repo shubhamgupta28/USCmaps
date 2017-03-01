@@ -16,14 +16,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java" />
     </list>
     <ignored path="USCmaps.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,31 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tab1Buildings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tab1Buildings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1754">
-              <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaitListDBHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaitListContract.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="70" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="70" />
+            <state relative-caret-position="229">
+              <caret line="77" column="78" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -89,38 +66,8 @@
       <file leaf-file-name="InsertDataUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Issues.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tab2Map.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1887">
-              <caret line="111" column="32" selection-start-line="111" selection-start-column="32" selection-end-line="111" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+            <state relative-caret-position="-269">
+              <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -129,8 +76,28 @@
       <file leaf-file-name="BuildingListAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state relative-caret-position="229">
+              <caret line="41" column="116" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="116" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaitListContract.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WaitListDBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -2367,13 +2334,14 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab3Parking.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java" />
       </list>
     </option>
   </component>
@@ -2951,11 +2919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488228454180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Clicking on recyclerview open a new tab now, Documentation progress - 45%, New Dbs's to be added, Improvement in UX done">
+      <created>1488317733916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488317733916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="22" width="1370" height="878" extended-state="6" />
+    <frame x="70" y="22" width="1370" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2966,9 +2941,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3026,6 +3001,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -3035,7 +3018,8 @@
     <MESSAGE value="Fixed Keyboard issue, navigation destination not being set properly issue" />
     <MESSAGE value="UI related tasks - Recyclerview UI fixed, NotificationBar Color fixed" />
     <MESSAGE value="Icon set, cleaned up Code, Improvement in RecyclerView UI to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Icon set, cleaned up Code, Improvement in RecyclerView UI to be done" />
+    <MESSAGE value="Clicking on recyclerview open a new tab now, Documentation progress - 45%, New Dbs's to be added, Improvement in UX done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clicking on recyclerview open a new tab now, Documentation progress - 45%, New Dbs's to be added, Improvement in UX done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3375,14 +3359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab2Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
@@ -3399,42 +3375,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1754">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListDBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="598">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/WaitListContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="357">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/data/InsertDataUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="-269">
+          <caret line="94" column="27" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Issues.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/BuildingListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        <state relative-caret-position="229">
+          <caret line="41" column="116" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/usc/com/uscmaps/example1/shubham/uscmaps/Tab1Buildings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="77" column="78" selection-start-line="77" selection-start-column="78" selection-end-line="77" selection-end-column="78" />
           <folding />
         </state>
       </provider>
