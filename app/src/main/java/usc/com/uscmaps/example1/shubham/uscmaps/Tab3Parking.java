@@ -1,6 +1,7 @@
 package usc.com.uscmaps.example1.shubham.uscmaps;
 
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -66,12 +67,12 @@ public class Tab3Parking extends Fragment implements ParkingListAdapter.ListItem
     private Cursor getAllParkingInfo() {
         return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME_PARKING,
+                new String[] {"name_parking"},
                 null,
                 null,
                 null,
                 null,
-                null,
-                WaitListContract.WaitListEntry.COLUMN_SYMBOL_PARKING
+                "name_parking" + " ASC"
         );
     }
 
@@ -81,11 +82,11 @@ public class Tab3Parking extends Fragment implements ParkingListAdapter.ListItem
     public void onClick(String weatherForDay) {
         Context context = getContext();
         Toast.makeText(context, weatherForDay, Toast.LENGTH_SHORT).show();
-//        Intent intent = new Intent(getContext(), MainActivity.class);
-//        intent.putExtra("RecyclerViewValue", weatherForDay);
-//        intent.putExtra("IdentifyClass", "Tab1Building");
-//        intent.putExtra("changeTab", "changeTab");
-//        intent.setClass(getContext(), MainActivity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(getContext(), MainActivity.class);
+        intent.putExtra("RecyclerViewValueParking", weatherForDay);
+        intent.putExtra("IdentifyClass", "Tab3Parking");
+        intent.putExtra("changeTab", "changeTab");
+        intent.setClass(getContext(), MainActivity.class);
+        startActivity(intent);
     }
 }

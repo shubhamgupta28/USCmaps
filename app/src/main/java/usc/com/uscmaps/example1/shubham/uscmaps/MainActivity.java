@@ -94,7 +94,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);
-            query= query.toUpperCase();
+
+            query=toTitleCase(query);
+            Log.e("dubjnskdscm", query);
+
+
             Cursor searchedResultCursor = getWordMatches(query);
 
             searchedResultCursor.moveToFirst();
@@ -112,24 +116,41 @@ public class MainActivity extends AppCompatActivity {
         else if (intent.getExtras() != null) {
             Log.e(TAG, "Inside else "+intent.getExtras().toString());
 
-            String buildingIntentCheck = intent.getExtras().getString("IdentifyClass");
+            String classIntentCheck = intent.getExtras().getString("IdentifyClass");
             String changeTab = intent.getExtras().getString("changeTab");
             Log.e(TAG, "Inside else "+ changeTab);
-            Log.e(TAG, "Inside else "+ buildingIntentCheck);
+            Log.e(TAG, "Inside else "+ classIntentCheck);
 
 
-            if (buildingIntentCheck != null && buildingIntentCheck.equals("Tab1Building")) {
+            if (classIntentCheck != null && classIntentCheck.equals("Tab1Building")) {
                 String query = intent.getStringExtra("RecyclerViewValue");
                 query= query.toUpperCase();
                 Cursor searchedResultCursor = getBuildingNameMatch(query);
                 searchedResultCursor.moveToFirst();
                 if(searchedResultCursor.getCount() == 0){
-                    Toast.makeText(getApplicationContext()  , "The Building Symbol you entered doesn't exist. Try Again!",
+                    Toast.makeText(getApplicationContext()  , "There was some error. Try Again!",
                             Toast.LENGTH_LONG).show();
                 }
                 else{
+//                    Log.e("fghjk", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
                   broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
                             searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
+                }
+            }
+            if(classIntentCheck != null && classIntentCheck.equals("Tab3Parking")){
+                String query = intent.getStringExtra("RecyclerViewValueParking");
+                Log.e("dcdc", query);
+                Cursor searchedResultCursor = getParkingNameMatch(query);
+                searchedResultCursor.moveToFirst();
+//                Log.e("dcdc", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address_parking")));
+//                Log.e("dcdc", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("name_parking")));
+                if(searchedResultCursor.getCount() == 0){
+                    Toast.makeText(getApplicationContext()  , "There was some error. Try Again!",
+                            Toast.LENGTH_LONG).show();
+                }
+                else{
+                    broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address_parking")),
+                            searchedResultCursor.getString(searchedResultCursor.getColumnIndex("name_parking")));
                 }
             }
             /**
@@ -140,6 +161,25 @@ public class MainActivity extends AppCompatActivity {
                 mViewPager.setCurrentItem(1);
             }
         }
+    }
+
+
+    public static String toTitleCase(String input) {
+        StringBuilder titleCase = new StringBuilder();
+        boolean nextTitleCase = true;
+
+        for (char c : input.toCharArray()) {
+            if (Character.isSpaceChar(c)) {
+                nextTitleCase = true;
+            } else if (nextTitleCase) {
+                c = Character.toTitleCase(c);
+                nextTitleCase = false;
+            }
+
+            titleCase.append(c);
+        }
+
+        return titleCase.toString();
     }
 
     /**
@@ -180,6 +220,19 @@ public class MainActivity extends AppCompatActivity {
                 new String[] {"buldingName", "address"},
                 "buldingName = ? " ,
                 new String[] { buildingName },
+                null,
+                null,
+                null);
+    }
+
+
+
+    private Cursor getParkingNameMatch(String parkingName) {
+        return mDb.query(
+                WaitListContract.WaitListEntry.TABLE_NAME_PARKING,
+                new String[] {"name_parking", "address_parking"},
+                "name_parking = ? " ,
+                new String[] { parkingName },
                 null,
                 null,
                 null);

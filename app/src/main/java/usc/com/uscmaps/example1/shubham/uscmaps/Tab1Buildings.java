@@ -71,6 +71,8 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
 
         // Get all building info from the database and save in a cursor
         Cursor cursor = getAllGuests();
+//        cursor.moveToFirst();
+//        Log.e("fjndkmv,c", ""+cursor.getCount()+" "+cursor.getString(cursor.getColumnIndex("address")));
         mAdapter = new BuildingListAdapter(cursor, this.getContext(), this);
         waitlistRecyclerView.setAdapter(mAdapter);
 
@@ -92,12 +94,12 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
     private Cursor getAllGuests() {
         return mDb.query(
                 WaitListContract.WaitListEntry.TABLE_NAME,
+                new String[] {"buldingName", "address"},
                 null,
                 null,
                 null,
                 null,
-                null,
-                WaitListContract.WaitListEntry.COLUMN_SERIAL
+                "buldingName"+ " ASC"
         );
     }
 

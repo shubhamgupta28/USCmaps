@@ -40,7 +40,9 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
             return;
         }
         String name = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
-        holder.bTextView.setText(name);
+        String address = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_ADDRESS));
+        holder.bTextViewBuildingName.setText(name);
+        holder.bTextViewAddress.setText(address);
 
     }
 
@@ -50,11 +52,13 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
     }
 
     class BuildingViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView bTextView ;
+        TextView bTextViewBuildingName;
+        TextView bTextViewAddress;
 
         public BuildingViewHolder(View itemView) {
             super(itemView);
-            bTextView = (TextView) itemView.findViewById(R.id.buildingNameTextView);
+            bTextViewBuildingName = (TextView) itemView.findViewById(R.id.buildingNameTextView);
+            bTextViewAddress = (TextView) itemView.findViewById(R.id.buildingAddress);
             itemView.setOnClickListener(this);
 
         }
