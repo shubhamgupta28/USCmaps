@@ -42,24 +42,6 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
         String name = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
         holder.bTextView.setText(name);
 
-//        holder.itemView.setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view){
-//                //Here goes your desired onClick behaviour. Like:
-//                Toast.makeText(view.getContext(), "You have clicked " + view.getId(), Toast.LENGTH_SHORT).show(); //you can add data to the tag of your cardview in onBind... and retrieve it here with with.getTag().toString()..
-//                //You can change the fragment, something like this, not tested, please correct for your desired output:
-//                AppCompatActivity activity = (AppCompatActivity) view.getContext();
-//                Tab2Map myFragment = new Tab2Map();
-//                //Create a bundle to pass data, add data, set the bundle to your fragment and:
-//                activity.getSupportFragmentManager().beginTransaction().replace(R.id.container, myFragment).addToBackStack(null).commit();
-//            }
-//        });
-
-//        AppCompatActivity activity = (AppCompatActivity) getContext();
-//        Tab2Map myFragment = new Tab2Map();
-//        //Create a bundle to pass data, add data, set the bundle to your fragment and:
-//        activity.getSupportFragmentManager().beginTransaction().replace(R.id.container, myFragment).addToBackStack(null).commit();
-
     }
 
     @Override

@@ -68,31 +68,16 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
 
         //Fill the database with fake data
         InsertDataUtil.insertFakeData(mDb);
-        InsertDataUtil.insertFakeParkingData(mDb);
 
         // Get all building info from the database and save in a cursor
         Cursor cursor = getAllGuests();
         mAdapter = new BuildingListAdapter(cursor, this.getContext(), this);
-
-        // Get all parking info from the database and save in a cursor
-        //TODO Cursor created, now create a recycler view for the parking data
-        Cursor cursorParking = getAllParkingInfo();
-
         waitlistRecyclerView.setAdapter(mAdapter);
+
         return rootView;
     }
 
-    private Cursor getAllParkingInfo() {
-        return mDb.query(
-                WaitListContract.WaitListEntry.TABLE_NAME_PARKING,
-                null,
-                null,
-                null,
-                null,
-                null,
-                WaitListContract.WaitListEntry.COLUMN_SYMBOL_PARKING
-        );
-    }
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
