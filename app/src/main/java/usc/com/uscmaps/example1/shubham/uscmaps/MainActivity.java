@@ -10,6 +10,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.NavUtils;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -163,7 +165,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
+    /**
+     * Change the String to Title case //Needed coz the crawled Database is in Title Case,
+     * as the problem about database was that it was in All caps, and was being displayed as it is
+     * @param input Query
+     * @return
+     */
     public static String toTitleCase(String input) {
         StringBuilder titleCase = new StringBuilder();
         boolean nextTitleCase = true;
@@ -262,12 +269,28 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        int id = item.getItemId();
+        switch (item.getItemId()) {
+            // Respond to the action bar's Up/Home button
+            case R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+            case R.id.action_settings:
+                Intent aboutMeIntent = new Intent(this, AboutMe.class);
+                startActivity(aboutMeIntent);
+                Log.e(TAG, "Clicked settings");
+                return true;
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
         }
+
+//        int id = item.getItemId();
+//
+//        //noinspection SimplifiableIfStatement
+//        if (id == R.id.action_settings) {
+//            Intent aboutMeIntent = new Intent(this, AboutMe.class);
+//            startActivity(aboutMeIntent);
+//            Log.e(TAG, "Clicked settings");
+//            return true;
+//        }
         return super.onOptionsItemSelected(item);
     }
 

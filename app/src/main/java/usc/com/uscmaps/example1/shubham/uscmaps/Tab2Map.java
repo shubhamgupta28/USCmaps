@@ -214,7 +214,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             Log.e(TAG, "Location not granted");
         }
         else{
-
             Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
             Log.e(TAG, "In FetchLocation"+location.toString());
             if (location == null) {
@@ -225,9 +224,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
 //                Log.e(TAG, "Location not Null, calling markNewLocation");
                 markNewLocation(location);
             }
-
         }
-
     }
 
 
@@ -361,7 +358,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
 
-//        Log.e(TAG, "In onRequestPermissionsResult");
+        Log.e(TAG, "In onRequestPermissionsResult");
         switch (requestCode) {
             case PERMISSION_REQUEST_ACCESS_FINE_LOCATION: {
                 // If request is cancelled, the result arrays are empty.
