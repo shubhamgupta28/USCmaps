@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="53b658401e481702f16e26f268dfe764424d5ed1">
+        sha1="1c00da511dd850158441c5879581a52c2acba9e5">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3752ab6a5ae3582c71251e8b283f543995ad1e44/classes.dex" />
     </item>
     <item
@@ -358,7 +358,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="100dd1b2472d11d99fde679947b9f8b29eeb7014">
+        sha1="9d23fc535991e2dc84670a1329a0c51a38666db8">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0d1082ecbbc6087168e297b73102300ef5d6485c/classes.dex" />
     </item>
     <item
