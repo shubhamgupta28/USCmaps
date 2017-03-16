@@ -23,10 +23,10 @@ import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListDBHelper;
 
 public class Tab3Parking extends Fragment implements ParkingListAdapter.ListItemClickListenerParking {
 
-    private SQLiteDatabase mDb;
-    RecyclerView waitlistRecyclerView;
-    LinearLayoutManager layoutManager;
-    private ParkingListAdapter mAdapter;
+    private SQLiteDatabase      mDb;
+    RecyclerView                waitlistRecyclerView;
+    LinearLayoutManager         layoutManager;
+    private ParkingListAdapter  mAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

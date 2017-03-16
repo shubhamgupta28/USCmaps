@@ -1,5 +1,6 @@
 package usc.com.uscmaps.example1.shubham.uscmaps;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -13,6 +14,7 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
@@ -21,6 +23,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -63,19 +66,19 @@ import java.util.Locale;
 public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener, GoogleMap.OnInfoWindowClickListener{
 
-    private Address searchAddress;
-    private GoogleApiClient mGoogleApiClient;
-    private LocationRequest mLocationRequest;
-    private GoogleMap mGoogleMap;
-    private MapView mMapView;
     private static final int PERMISSION_REQUEST_ACCESS_FINE_LOCATION = 0;
-    Context context;
-    String strtext;
-    BroadcastReceiver br;
+    public static final String TAG = Tab2Map.class.getSimpleName();
     String destinationFromSearch;
     String buildingNameFromSearch;
     boolean onReceiveCalled = false;
-    public static final String TAG = Tab2Map.class.getSimpleName();
+
+    private Address         searchAddress;
+    private GoogleApiClient mGoogleApiClient;
+    private LocationRequest mLocationRequest;
+    private GoogleMap       mGoogleMap;
+    private MapView         mMapView;
+    BroadcastReceiver       br;
+
 
 //    public static Tab2Map newInstance() {
 //
@@ -101,8 +104,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
                 .setInterval(10 * 1000)
                 .setFastestInterval(1000);
 
-
-
         setHasOptionsMenu(true);
         br = new BroadcastReceiver() {
             @Override
@@ -126,7 +127,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
         if (onReceiveCalled) {
             searchBuilding(destinationFromSearch);
         }
-
     }
 
     private void setUpMap() {
@@ -388,7 +388,7 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
      */
     @Override
     public void onInfoWindowClick(Marker marker) {
-        Toast.makeText(getContext(), "Info window clicked, Opening Navigation", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getContext(), "Opening Navigation", Toast.LENGTH_SHORT).show();
 
         String queryString= null;
         try {
@@ -414,8 +414,6 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
     }
 
     DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
-
-        final int BUTTON_NEGATIVE = -2;
         final int BUTTON_POSITIVE = -1;
 
         @Override
@@ -431,5 +429,13 @@ public class Tab2Map extends Fragment implements GoogleApiClient.ConnectionCallb
             }
         }
     };
+
+
+    public static void hideKeyboard(Activity activity,
+                                    IBinder windowToken) {
+        InputMethodManager mgr = (InputMethodManager) activity.getSystemService
+                (Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(windowToken, 0);
+    }
 
 }

@@ -3,6 +3,6 @@
     <string name="action_settings">About Me</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="search_title">Search</string>
-    <string name="search_hint">Search For..</string>
+    <string name="search_hint">Search For Abbreviations..</string>
     <string name="AboutMe_activity_display_message">About Me</string>
 </resources>

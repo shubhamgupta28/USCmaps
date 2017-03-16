@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListContract;
 
-/**
- * Created by Shubham on 2/21/17.
- */
+
 
 public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapter.BuildingViewHolder> {
 
@@ -60,14 +58,11 @@ public class BuildingListAdapter extends RecyclerView.Adapter<BuildingListAdapte
             bTextViewBuildingName = (TextView) itemView.findViewById(R.id.buildingNameTextView);
             bTextViewAddress = (TextView) itemView.findViewById(R.id.buildingAddress);
             itemView.setOnClickListener(this);
-
         }
-
 
         @Override
         public void onClick(View v) {
             int adapterPosition = getAdapterPosition();
-//            Log.e(TAG, ""+adapterPosition);
             mCursor.moveToPosition(adapterPosition);
             String selectedString = mCursor.getString(mCursor.getColumnIndex(WaitListContract.WaitListEntry.COLUMN_BUILDING_NAME));
             mlistItemClickListener.onClick(selectedString);

@@ -30,24 +30,10 @@ import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListDBHelper;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private SQLiteDatabase mDb;
-    public static final String TAG = MainActivity.class.getSimpleName();
-
-    /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
-     * fragments for each of the sections. We use a
-     * {@link FragmentPagerAdapter} derivative, which will keep every
-     * loaded fragment in memory. If this becomes too memory intensive, it
-     * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
-     */
+    public static final String   TAG = MainActivity.class.getSimpleName();
+    private SQLiteDatabase       mDb;
     private SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The {@link ViewPager} that will host the section contents.
-     */
-    private ViewPager mViewPager;
-    public String search;
+    private ViewPager            mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -120,13 +106,12 @@ public class MainActivity extends AppCompatActivity {
 
             String classIntentCheck = intent.getExtras().getString("IdentifyClass");
             String changeTab = intent.getExtras().getString("changeTab");
-            Log.e(TAG, "Inside else "+ changeTab);
-            Log.e(TAG, "Inside else "+ classIntentCheck);
+//            Log.e(TAG, "Inside else "+ changeTab);
+//            Log.e(TAG, "Inside else "+ classIntentCheck);
 
 
             if (classIntentCheck != null && classIntentCheck.equals("Tab1Building")) {
                 String query = intent.getStringExtra("RecyclerViewValue");
-//                query= query.toUpperCase();
                 Cursor searchedResultCursor = getBuildingNameMatch(query);
                 searchedResultCursor.moveToFirst();
                 if(searchedResultCursor.getCount() == 0){
@@ -134,18 +119,14 @@ public class MainActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }
                 else{
-//                    Log.e("fghjk", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")));
                   broadcastIntent(searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address")),
                             searchedResultCursor.getString(searchedResultCursor.getColumnIndex("buldingName")));
                 }
             }
             if(classIntentCheck != null && classIntentCheck.equals("Tab3Parking")){
                 String query = intent.getStringExtra("RecyclerViewValueParking");
-                Log.e("dcdc", query);
                 Cursor searchedResultCursor = getParkingNameMatch(query);
                 searchedResultCursor.moveToFirst();
-//                Log.e("dcdc", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("address_parking")));
-//                Log.e("dcdc", searchedResultCursor.getString(searchedResultCursor.getColumnIndex("name_parking")));
                 if(searchedResultCursor.getCount() == 0){
                     Toast.makeText(getApplicationContext()  , "There was some error. Try Again!",
                             Toast.LENGTH_LONG).show();
@@ -277,7 +258,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_settings:
                 Intent aboutMeIntent = new Intent(this, AboutMe.class);
                 startActivity(aboutMeIntent);
-                Log.e(TAG, "Clicked settings");
                 return true;
 
         }
@@ -310,16 +290,13 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             switch (position){
                 case 0:
-                    Tab1Buildings one = new Tab1Buildings();
-                    return one;
+                    return new Tab1Buildings();
 //                    return Tab1Buildings.newInstance();
                 case 1:
-                    Tab2Map two = new Tab2Map();
-                    return two;
+                    return new Tab2Map();
 //                    return Tab2Map.newInstance();
                 case 2:
-                    Tab3Parking three = new Tab3Parking();
-                    return three;
+                    return new Tab3Parking();
 //                    return Tab3Parking.newInstance();
                 default:
                     return null;

@@ -9,7 +9,6 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,9 +32,9 @@ import usc.com.uscmaps.example1.shubham.uscmaps.data.WaitListDBHelper;
 
 public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListItemClickListener {
 
-    private SQLiteDatabase mDb;
-    RecyclerView waitlistRecyclerView;
-    LinearLayoutManager layoutManager;
+    private SQLiteDatabase      mDb;
+    RecyclerView                waitlistRecyclerView;
+    LinearLayoutManager         layoutManager;
     private BuildingListAdapter mAdapter;
 
 //    public static Tab1Buildings newInstance() {
@@ -76,7 +75,7 @@ public class Tab1Buildings extends Fragment implements BuildingListAdapter.ListI
         Cursor cursor = getAllGuests();
 
         cursor.moveToFirst();
-        Log.e("fjndkmv,c", ""+cursor.getCount());
+//        Log.e("fjndkmv,c", ""+cursor.getCount());
         mAdapter = new BuildingListAdapter(cursor, this.getContext(), this);
         waitlistRecyclerView.setAdapter(mAdapter);
 
