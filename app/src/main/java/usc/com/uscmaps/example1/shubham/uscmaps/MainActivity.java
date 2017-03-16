@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
-        Log.e(TAG, "Inside onNewIntent ");
+//        Log.e(TAG, "Inside onNewIntent ");
         handleIntent(intent);
     }
 
@@ -78,13 +78,13 @@ public class MainActivity extends AppCompatActivity {
      * @param intent - The intent received
      */
     private void handleIntent(Intent intent) {
-        Log.e(TAG, "Inside handleNewIntent "+intent.getAction());
+//        Log.e(TAG, "Inside handleNewIntent "+intent.getAction());
 
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             String query = intent.getStringExtra(SearchManager.QUERY);
 
             query=toTitleCase(query);
-            Log.e("dubjnskdscm", query);
+//            Log.e("dubjnskdscm", query);
 
 
             Cursor searchedResultCursor = getWordMatches(query);
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         else if (intent.getExtras() != null) {
-            Log.e(TAG, "Inside else "+intent.getExtras().toString());
+//            Log.e(TAG, "Inside else "+intent.getExtras().toString());
 
             String classIntentCheck = intent.getExtras().getString("IdentifyClass");
             String changeTab = intent.getExtras().getString("changeTab");
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
              * To change tab 1 to tab 2, after selecting a item from the recycler view
              */
             if(changeTab!=null && changeTab.equals("changeTab")){
-                Log.e("serdtfgyhuijok", "tab change code");
+//                Log.e("serdtfgyhuijok", "tab change code");
                 mViewPager.setCurrentItem(1);
             }
         }

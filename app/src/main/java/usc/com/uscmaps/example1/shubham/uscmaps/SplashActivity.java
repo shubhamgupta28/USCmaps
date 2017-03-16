@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
 /**
  * Created by Shubham on 3/1/17.
@@ -29,17 +28,17 @@ public class SplashActivity extends AppCompatActivity {
         if (ContextCompat.checkSelfPermission(this,
                 android.Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED) {
-            Log.e("gh", "Permission check required");
+//            Log.e("gh", "Permission check required");
 
             // Should we show an explanation?
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     android.Manifest.permission.ACCESS_FINE_LOCATION)) {
 
-                Log.e(TAG, "Rationale");
+//                Log.e(TAG, "Rationale");
                 showMessageOKCancel("You need to allow access to Location to make full use of this app");
 
             } else {
-                Log.e(TAG, "New2");
+//                Log.e(TAG, "New2");
                 // No explanation needed, we can request the permission.
 
                 ActivityCompat.requestPermissions(this,
@@ -51,9 +50,9 @@ public class SplashActivity extends AppCompatActivity {
         // FOR older versions, permission is already granted
         else {
             //DO WHATEVER YOU WANT WITH GOOGLEMAP
-            Log.e(TAG, "Else OnCreate");
+//            Log.e(TAG, "Else OnCreate");
             if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                Log.e(TAG, "Permission problem");
+//                Log.e(TAG, "Permission problem");
                 return;
             }
             Intent intent = new Intent(this, MainActivity.class);
@@ -70,20 +69,20 @@ public class SplashActivity extends AppCompatActivity {
     public void onRequestPermissionsResult(int requestCode,
                                            String permissions[], int[] grantResults) {
 
-        Log.e(TAG, "In onRequestPermissionsResult");
+//        Log.e(TAG, "In onRequestPermissionsResult");
         switch (requestCode) {
             case PERMISSION_REQUEST_ACCESS_FINE_LOCATION: {
                 // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-                    Log.e(TAG, "In if");
+//                    Log.e(TAG, "In if");
                     Intent intent = new Intent(this, MainActivity.class);
                     startActivity(intent);
                     finish();
 
                 } else {
-                    Log.e(TAG, "In else");
+//                    Log.e(TAG, "In else");
                     showMessageOKCancel("You need to allow access to Location to make full use of this app");
 
                     // permission denied, boo! Disable the
