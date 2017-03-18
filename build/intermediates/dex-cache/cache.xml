@@ -3,39 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Shubham/.android/build-cache/3759380d54cdf68ed3a61d468959b82e31345b6a/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3752ab6a5ae3582c71251e8b283f543995ad1e44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/b7588ec86b7dc666f525b79a626e09a108aae06e/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a8c0c4f3c5a6386bc73ae1623b59cca2f2aa146/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bfb335a75665ad5a14cb5864de4c8bb8b1f55dfd">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d1082ecbbc6087168e297b73102300ef5d6485c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/e18453f28cb8c9386fda161d216ff53233897031/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89a4a60837da3d3937b77958b323962150979d0c/classes.dex" />
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db2bd2dcb7bf46992cb7ebfa9cb46b70f52c4029/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,12 +30,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/6dfa36a23c66c423e572897e5e1bb891691391ea/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c7e605cee4e076b76f427903a8c5a510432d007/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_3752ab6a5ae3582c71251e8b283f543995ad1e44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/.android/build-cache/975cf6ff0b55e8bb47dfe2d3c38ecad5ada6c57e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_51d1a4b4c1bca5b94f15d00bd96f111e7d99f748/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/aa0b0c43213962ccfcd84c02f9be95eff62d5762/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9e28dc8dea96160937d5e213b13174c853e49e8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/8f19ea27112e8e70b34efcddef1c7b91ccb3d3d6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_170ea7afc96f051879d46a07cad4ffdee765e8c5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,12 +93,57 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/c2503eaa574b775fe10f7a686cea5febba1543c0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8059deb69764e16d64173632ad330ce7be0b003e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/cfe5f0de32cfe974c105084a8d81da57bc48e258/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f32d62b8e3c5cb34b4012adbee6d8894e2721154/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/b7588ec86b7dc666f525b79a626e09a108aae06e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a8c0c4f3c5a6386bc73ae1623b59cca2f2aa146/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/82ed53ee022da3916d2e25ab94413561e1f33a1b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69ed80263202c7f2fa6aee899772723eecf5f165/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
         <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_d2be0804a7e5dd7acd3004a346bf2fa27299adf2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a118ec3ffead5d8d96f867a9fbf09e743fc2475">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0d1082ecbbc6087168e297b73102300ef5d6485c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -111,6 +165,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Shubham/.android/build-cache/3d896dd5b470fe87d361429fb176a8f3970a414c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d45bf4d60762dad116e5959e353c0816df36616/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Shubham/.android/build-cache/acdf4ecb29abc82f8634ce7efba62ea4ad59f11b/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -129,75 +192,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/3759380d54cdf68ed3a61d468959b82e31345b6a/output/jars/classes.jar"
+        jar="/Users/Shubham/.android/build-cache/e18453f28cb8c9386fda161d216ff53233897031/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db2bd2dcb7bf46992cb7ebfa9cb46b70f52c4029/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/aa0b0c43213962ccfcd84c02f9be95eff62d5762/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9e28dc8dea96160937d5e213b13174c853e49e8f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/82ed53ee022da3916d2e25ab94413561e1f33a1b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69ed80263202c7f2fa6aee899772723eecf5f165/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/6dfa36a23c66c423e572897e5e1bb891691391ea/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c7e605cee4e076b76f427903a8c5a510432d007/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/8f19ea27112e8e70b34efcddef1c7b91ccb3d3d6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_170ea7afc96f051879d46a07cad4ffdee765e8c5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/c2503eaa574b775fe10f7a686cea5febba1543c0/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8059deb69764e16d64173632ad330ce7be0b003e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/cfe5f0de32cfe974c105084a8d81da57bc48e258/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f32d62b8e3c5cb34b4012adbee6d8894e2721154/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Shubham/.android/build-cache/3d896dd5b470fe87d361429fb176a8f3970a414c/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d45bf4d60762dad116e5959e353c0816df36616/classes.dex" />
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/Shubham/GitHub/USCmaps/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89a4a60837da3d3937b77958b323962150979d0c/classes.dex" />
     </item>
 
 </items>

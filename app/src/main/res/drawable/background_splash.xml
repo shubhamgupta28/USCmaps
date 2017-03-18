@@ -2,16 +2,6 @@
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:drawable="@drawable/background3"/>
-    <item
-        android:drawable="@drawable/usc_logo_1"
-        android:top="10dp"
-        android:bottom="150dp"
-        android:right="10dp"
-        android:left="10dp">
-
-        <bitmap
-            android:gravity="center"
-            android:src="@mipmap/ic_launcher_2_blue_android"/>
+        android:drawable="@drawable/background3">
     </item>
 </layer-list>
